@@ -1,0 +1,17 @@
+server:
+  port: ${port:8900}
+spring:
+  application:
+    name: springcloudapigateway
+    
+  #cloud:
+   # gateway:
+    #  routes:
+     #   - id: stock-enquery
+      #    uri: http://localhost:8700/
+       #   predicates:
+        #  - Path=/productenquery/**
+#zuul:
+ #routes:
+  # product-enquery: /product-enquery/**
+   #url: http://localhost:8700/ 
